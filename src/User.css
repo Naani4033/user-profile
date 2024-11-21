@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3784c4;
+    
+}
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 150px;
+
+}
+h3{
+    margin: 10px 0;
+}
+h5{
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+p{
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+}
+.card-container{
+    background-color: rgb(177, 135, 194);
+    border-color: rgb(9, 228, 155);
+    border-radius: 5px;
+    box-shadow: 8px 10px 20px -10px;
+    color: rgb(46, 54, 0);
+    padding-top: 30px;
+    width: 400px;
+    height: 600px;;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.pro{
+    color: rgb(196, 17, 17);
+    background: red;
+   border-radius: 3px;
+   font-size: 15px;
+   font-weight:bold;
+   top: 30px;
+   left: 30px;
+   position: absolute;
+   color: black;
+}
+
+
+online{
+    background-color: brown;
+    font-size: medium;
+
+}
+offline{
+    background-color: green;
+}
+
+img{
+    border: 8px solid rgb(3, 197, 116);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button.primary{
+background-color: rgb(30, 28, 189);
+border: 1px solid rgb(71, 100, 185);
+border-radius: 3px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 500;
+padding: 10px 20px;
+}
+
+button.primary.outline{
+    background-color: transparent; 
+}
+
+.skills {
+    background-color:  rgb(177, 135, 194);
+    padding: 15px;
+    margin-top: 15px ;
+    color: black;
+
+}
+.skills ui{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.skills ui li {
+    border: 1px solid #595180;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 17px;
+    margin: 0 7px 7px 0;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;   
+}
